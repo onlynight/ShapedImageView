@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ChatImageView">
+        <attr name="sharp_corner_direction" format="enum">
+            <enum name="left" value="0" />
+            <enum name="right" value="1" />
+        </attr>
+        <attr name="sharp_corner_start" format="dimension" />
+        <attr name="sharp_corner_width" format="dimension" />
+        <attr name="round_corner" format="boolean" />
+        <attr name="corner_radius" format="dimension" />
+        <attr name="sharp_corner_height" format="dimension" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ShapedImageView">
+        <attr name="shape" format="enum">
+            <enum name="rectangle" value="0" />
+            <enum name="circle" value="1" />
+            <enum name="star" value="2" />
+            <enum name="triangle" value="3" />
+            <enum name="round_rectangle" value="4" />
+            <enum name="pentagon" value="5" />
+        </attr>
+
+        <attr name="round_rect_corner_radius" format="dimension" />
+    </declare-styleable>
+
+</resources>
