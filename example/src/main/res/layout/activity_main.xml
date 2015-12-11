@@ -39,14 +39,66 @@
                 app:sharp_corner_start="20dp"
                 app:sharp_corner_width="8dp" />
 
-            <com.github.onlynight.shapedimageview.ShapedImageView
-                android:id="@+id/shapedImageView"
+            <com.github.onlynight.chatimageview.ChatImageView
                 android:layout_width="200dp"
                 android:layout_height="200dp"
+                android:layout_marginTop="100dp"
+                android:scaleType="center"
+                android:src="@drawable/ic_pic_bg"
+                app:round_corner="false"
+                app:sharp_corner_direction="right"
+                app:sharp_corner_height="10dp"
+                app:sharp_corner_start="20dp"
+                app:sharp_corner_width="8dp" />
+
+            <com.github.onlynight.shapedimageview.ShapedImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="100dp"
+                android:scaleType="center"
+                android:src="@drawable/ic_pic_bg"
+                app:shape="rectangle" />
+
+            <com.github.onlynight.shapedimageview.ShapedImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="100dp"
                 android:scaleType="center"
                 android:src="@drawable/ic_pic_bg"
                 app:round_rect_corner_radius="20dp"
                 app:shape="round_rectangle" />
+
+            <com.github.onlynight.shapedimageview.ShapedImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="100dp"
+                android:scaleType="center"
+                android:src="@drawable/ic_pic_bg"
+                app:shape="circle" />
+
+            <com.github.onlynight.shapedimageview.ShapedImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="100dp"
+                android:scaleType="center"
+                android:src="@drawable/ic_pic_bg"
+                app:shape="star" />
+
+            <com.github.onlynight.shapedimageview.ShapedImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="100dp"
+                android:scaleType="center"
+                android:src="@drawable/ic_pic_bg"
+                app:shape="triangle" />
+
+            <com.github.onlynight.shapedimageview.ShapedImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="100dp"
+                android:scaleType="center"
+                android:src="@drawable/ic_pic_bg"
+                app:shape="pentagon" />
 
         </LinearLayout>
 

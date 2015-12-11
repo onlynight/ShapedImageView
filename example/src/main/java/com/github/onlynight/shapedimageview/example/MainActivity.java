@@ -7,12 +7,10 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 import com.github.onlynight.chatimageview.ChatImageView;
-import com.github.onlynight.shapedimageview.ShapedImageView;
 
 public class MainActivity extends AppCompatActivity {
 
     private ChatImageView chatImageView;
-    private ShapedImageView shapedImageView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,7 +20,6 @@ public class MainActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
         chatImageView = (ChatImageView) findViewById(R.id.chatImageView);
-        shapedImageView = (ShapedImageView) findViewById(R.id.shapedImageView);
         chatImageView.setSharpCornerStart(Utils.dpToPx(100));
         chatImageView.setCornerRadius(Utils.dpToPx(20));
         chatImageView.setSharpCornerDirection(ChatImageView.SHARP_CORNER_DIRECTION_RIGHT);
