@@ -29,8 +29,8 @@
             <com.github.onlynight.chatimageview.ChatImageView
                 android:id="@+id/chatImageView"
                 android:layout_width="200dp"
-                android:layout_height="200dp"
-                android:scaleType="center"
+                android:layout_height="150dp"
+                android:scaleType="centerCrop"
                 android:src="@drawable/ic_pic_bg"
                 app:corner_radius="4dp"
                 app:round_corner="true"
@@ -41,9 +41,9 @@
 
             <com.github.onlynight.chatimageview.ChatImageView
                 android:layout_width="200dp"
-                android:layout_height="200dp"
+                android:layout_height="150dp"
                 android:layout_marginTop="100dp"
-                android:scaleType="center"
+                android:scaleType="centerCrop"
                 android:src="@drawable/ic_pic_bg"
                 app:round_corner="false"
                 app:sharp_corner_direction="right"
@@ -53,50 +53,50 @@
 
             <com.github.onlynight.shapedimageview.ShapedImageView
                 android:layout_width="200dp"
-                android:layout_height="200dp"
+                android:layout_height="150dp"
                 android:layout_marginTop="100dp"
-                android:scaleType="center"
+                android:scaleType="centerCrop"
                 android:src="@drawable/ic_pic_bg"
                 app:shape="rectangle" />
 
             <com.github.onlynight.shapedimageview.ShapedImageView
                 android:layout_width="200dp"
-                android:layout_height="200dp"
+                android:layout_height="150dp"
                 android:layout_marginTop="100dp"
-                android:scaleType="center"
+                android:scaleType="centerCrop"
                 android:src="@drawable/ic_pic_bg"
                 app:round_rect_corner_radius="20dp"
                 app:shape="round_rectangle" />
 
             <com.github.onlynight.shapedimageview.ShapedImageView
                 android:layout_width="200dp"
-                android:layout_height="200dp"
+                android:layout_height="150dp"
                 android:layout_marginTop="100dp"
-                android:scaleType="center"
+                android:scaleType="centerCrop"
                 android:src="@drawable/ic_pic_bg"
                 app:shape="circle" />
 
             <com.github.onlynight.shapedimageview.ShapedImageView
                 android:layout_width="200dp"
-                android:layout_height="200dp"
+                android:layout_height="150dp"
                 android:layout_marginTop="100dp"
-                android:scaleType="center"
+                android:scaleType="centerCrop"
                 android:src="@drawable/ic_pic_bg"
                 app:shape="star" />
 
             <com.github.onlynight.shapedimageview.ShapedImageView
                 android:layout_width="200dp"
-                android:layout_height="200dp"
+                android:layout_height="150dp"
                 android:layout_marginTop="100dp"
-                android:scaleType="center"
+                android:scaleType="fitStart"
                 android:src="@drawable/ic_pic_bg"
                 app:shape="triangle" />
 
             <com.github.onlynight.shapedimageview.ShapedImageView
                 android:layout_width="200dp"
-                android:layout_height="200dp"
+                android:layout_height="150dp"
                 android:layout_marginTop="100dp"
-                android:scaleType="center"
+                android:scaleType="fitStart"
                 android:src="@drawable/ic_pic_bg"
                 app:shape="pentagon" />
 
