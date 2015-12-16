@@ -28,7 +28,7 @@ dependencies {
 }
 ```
 
-##Demo
+##Demo1
 You can simple use it in the xml layout file;
 ```xml
 <com.github.onlynight.chatimageview.ChatImageView
@@ -43,8 +43,9 @@ You can simple use it in the xml layout file;
     app:sharp_corner_height="10dp"
     app:sharp_corner_start="20dp"
     app:sharp_corner_width="8dp" />
-xml```
+```
 
+##Demo2
 or you can set the attrs with your code, that's simple.
 ```java
 public class MainActivity extends AppCompatActivity {
@@ -62,7 +63,7 @@ public class MainActivity extends AppCompatActivity {
         chatImageView.setSharpCornerDirection(ChatImageView.SHARP_CORNER_DIRECTION_RIGHT);
     }
 }
-java```
+```
 
 ###Screenshot
 ![shaped_image_view](https://github.com/onlynight/ShapedImageView/blob/master/screenshot/Screenshot_2015-12-11-18-16-46.png)
