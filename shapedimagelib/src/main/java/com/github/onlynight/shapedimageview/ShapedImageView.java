@@ -11,9 +11,9 @@ import android.graphics.PorterDuffXfermode;
 import android.graphics.RectF;
 import android.graphics.drawable.Drawable;
 import android.util.AttributeSet;
-import android.widget.ImageView;
 
 import com.github.onlynight.shapedimageview.shape.CirclePath;
+import com.github.onlynight.shapedimageview.shape.LeftTrapezoid;
 import com.github.onlynight.shapedimageview.shape.PentagonPath;
 import com.github.onlynight.shapedimageview.shape.RectanglePath;
 import com.github.onlynight.shapedimageview.shape.RoundRectanglePath;
@@ -24,7 +24,7 @@ import com.github.onlynight.shapedimageview.shape.TrianglePath;
 /**
  * Created by lion on 2015/12/10 0010.
  */
-public class ShapedImageView extends ImageView {
+public class ShapedImageView extends android.support.v7.widget.AppCompatImageView {
 
     public enum SHAPE {
         RECTANGLE(0),
@@ -32,7 +32,8 @@ public class ShapedImageView extends ImageView {
         STAR(2),
         TRIANGLE(3),
         ROUND_RECTANGLE(4),
-        PENTAGON(5);
+        PENTAGON(5),
+        LEFT_TRAPEZOID(6);
 
         private int value;
 
@@ -110,6 +111,9 @@ public class ShapedImageView extends ImageView {
                 break;
             case PENTAGON:
                 shapedPath = new PentagonPath();
+                break;
+            case LEFT_TRAPEZOID:
+                shapedPath = new LeftTrapezoid();
                 break;
         }
     }

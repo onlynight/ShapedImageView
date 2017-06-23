@@ -9,6 +9,7 @@
             <enum name="triangle" value="3" />
             <enum name="round_rectangle" value="4" />
             <enum name="pentagon" value="5" />
+            <enum name="left_trapezoid" value="6" />
         </attr>
 
         <attr name="round_rect_corner_radius" format="dimension" />
