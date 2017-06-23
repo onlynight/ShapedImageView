@@ -6,7 +6,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import com.github.onlynight.chatimageview.ChatImageView;
+import com.github.onlynight.shapedimageview.ChatImageView;
 
 public class MainActivity extends AppCompatActivity {
 

@@ -1,4 +1,4 @@
-package com.github.onlynight.chatimageview;
+package com.github.onlynight.shapedimageview;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -12,13 +12,12 @@ import android.graphics.PorterDuffXfermode;
 import android.graphics.RectF;
 import android.graphics.drawable.Drawable;
 import android.util.AttributeSet;
-import android.widget.ImageView;
 
 /**
  * Created by lion on 15-8-29.
  * 任意形状imageView
  */
-public class ChatImageView extends ImageView {
+public class ChatImageView extends android.support.v7.widget.AppCompatImageView {
 
     private static final PorterDuffXfermode paintMode = new PorterDuffXfermode(PorterDuff.Mode.SRC_IN);
     private Paint paint = new Paint(Paint.ANTI_ALIAS_FLAG | Paint.FILTER_BITMAP_FLAG);

@@ -1,1 +1,1 @@
-include ':example', ':shapedimagelib', ':chatimagelib'
+include ':example', ':shapedimagelib'
