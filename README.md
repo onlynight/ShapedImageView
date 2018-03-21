@@ -24,7 +24,7 @@ Add the dependency
 
 ```groovy
 dependencies {
-        compile 'com.github.onlynight:ShapedImageView:0.1.0'
+        compile 'com.github.onlynight:ShapedImageView:1.0.3'
 }
 ```
 
